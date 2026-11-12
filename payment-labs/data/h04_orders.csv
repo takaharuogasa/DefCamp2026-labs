@@ -1,0 +1,6 @@
+order_id,calculated_at_utc,server_calculated_total,currency,order_version
+ord-seed-h04-1001,2026-10-16T09:00:00Z,49.50,SGD,1
+ord-seed-h04-1002,2026-10-16T09:10:00Z,120.00,SGD,1
+ord-seed-h04-1003,2026-10-16T09:20:00Z,64.00,SGD,1
+ord-seed-h04-1003,2026-10-16T09:24:00Z,55.00,SGD,2
+ord-seed-h04-1005,2026-10-16T09:30:00Z,25.00,USD,1

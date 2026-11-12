@@ -1,0 +1,25 @@
+{
+  "orders": {
+    "order_id": "order_id",
+    "time": "calculated_at_utc",
+    "amount": "server_calculated_total",
+    "currency": "currency",
+    "version": "order_version",
+    "amount_unit": "major",
+    "currency_aliases": {}
+  },
+  "stripe_requests": {
+    "order_id": "order_id",
+    "time": "request_at_utc",
+    "amount": "amount",
+    "currency": "currency",
+    "request_id": "request_id",
+    "payment_intent_id": "payment_intent_id",
+    "amount_unit": "major",
+    "currency_aliases": {}
+  },
+  "stripe_units_per_major": {
+    "SGD": 100,
+    "USD": 100
+  }
+}

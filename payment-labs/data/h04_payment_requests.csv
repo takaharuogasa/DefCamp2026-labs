@@ -1,0 +1,6 @@
+order_id,request_at_utc,amount,currency,request_id,payment_intent_id
+ord-seed-h04-1001,2026-10-16T09:01:00Z,49.50,SGD,req-h04-1001,pi-seed-h04-1001
+ord-seed-h04-1002,2026-10-16T09:11:00Z,12.00,SGD,req-h04-1002-tampered,pi-seed-h04-1002
+ord-seed-h04-1003,2026-10-16T09:26:00Z,55.00,SGD,req-h04-1003,pi-seed-h04-1003
+ord-seed-h04-missing,2026-10-16T09:11:30Z,20.00,SGD,req-h04-missing,pi-seed-h04-missing
+ord-seed-h04-1005,2026-10-16T09:31:00Z,25.00,USD,req-h04-1005,pi-seed-h04-1005

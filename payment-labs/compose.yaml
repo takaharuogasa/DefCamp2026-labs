@@ -1,0 +1,22 @@
+services:
+  payment-hunt:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - payment-hunt-data:/data
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "from urllib.request import urlopen; urlopen('http://127.0.0.1:8080/api/health', timeout=2).read()"
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+volumes:
+  payment-hunt-data:
